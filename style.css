@@ -1,0 +1,131 @@
+.redsocial {
+	display: flex;
+	justify-content: space-between;
+}
+
+.fondo {
+	background-image: url(img/FondoLargo.jpg);
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.gris {
+	/* ctrl+shit+c para activar la paleta de colores*/
+	background: rgba(0, 0, 0, 0.4);
+	font-size: 12px;
+}
+.top-nav-collapse {
+	background: #014441 !important;
+}
+.navbar-nav li {
+	padding: 10px;
+}
+.navbar-nav li a{
+	border-radius: 3px;
+}
+
+.main {
+	text-align: justify;
+	margin-top: 25px;
+}
+
+
+h1 {
+	margin-top: 50px;
+	font-size: 50px;
+	padding: 30px;
+}
+
+h3 {
+	font-size: 30px;
+}
+
+h4 {
+	font-size: 20px;
+}
+
+p {
+	font-size: 13px;
+}
+
+.main li {
+	font-size: 13px;
+}
+
+.portada img {
+	display: block;
+	margin: auto;
+	width: 360px;
+	margin: 0 auto;
+}
+
+.jardin img {
+	display: block;
+	margin: auto;
+	width: 700px;
+	margin: 0 auto;
+}
+
+.fos img {
+	display: block;
+	margin: auto;
+	width: 700px;
+	margin: 0 auto;
+}
+
+.form-group {
+	outline: none;
+}
+
+textarea {
+		resize: vertical;
+		max-height: 200px;
+		min-height: 80px;
+}
+
+button {
+	background-color: #347474;
+}
+
+footer {
+	margin-top: 100px;
+	background-color: #014441;
+}
+
+.footer-copyright strong {
+	color: #f9f9f9;
+	font-size: 12px;
+}
+
+.footer-copyright strong a {
+	color: #014441;
+}
+
+.coment {
+	font-size: 13px;
+}
+
+@media only screen and (max-width: 362px){
+	.fondo {
+		height: 0;
+	}
+	.main{
+		margin-top: 0px;
+	}
+	.gris {
+		background: #014441;
+	}
+}
+
+@media only screen and (max-width: 414px){
+	.fondo {
+		height: 0;
+	}
+	.main{
+		margin-top: 40px;
+	}
+	.gris {
+		background: #014441;
+	}
+}
